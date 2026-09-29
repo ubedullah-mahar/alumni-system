@@ -453,3 +453,93 @@ footer p {
 .directory tbody tr:hover {
     background-color: #eaf1f8;
 }
+
+/* =========================================
+   Alumni Registration Form
+   ========================================= */
+
+.form-container {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    padding: 35px;
+    background-color: white;
+    border: 1px solid #d9e1ea;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.form-container h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1e3a5f;
+}
+
+.form-container > p {
+    margin-bottom: 30px;
+    color: #555555;
+}
+
+
+/* Form Groups */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+/* Labels */
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333333;
+}
+
+
+/* Inputs and Select */
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #c8d1dc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+
+/* Required Focus State */
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #1e3a5f;
+    box-shadow: 0 0 0 3px rgba(30, 58, 95, 0.15);
+}
+
+
+/* Register Button */
+
+.register-button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 5px;
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Register Button Hover */
+
+.register-button:hover {
+    background-color: #2f5d8a;
+}
