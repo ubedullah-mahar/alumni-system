@@ -363,3 +363,93 @@ footer p {
 .profile-actions button:hover {
     background-color: #2f5d8a;
 }
+/* =========================================
+   Alumni Directory
+   ========================================= */
+
+.directory {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #d9e1ea;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.directory h2 {
+    margin-top: 0;
+    color: #1e3a5f;
+}
+
+.directory > p {
+    color: #555555;
+}
+
+
+/* Search Box */
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin: 25px 0;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #c8d1dc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.search-box input:focus {
+    outline: none;
+    border-color: #1e3a5f;
+    box-shadow: 0 0 0 3px rgba(30, 58, 95, 0.15);
+}
+
+.search-box button {
+    padding: 12px 22px;
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-box button:hover {
+    background-color: #2f5d8a;
+}
+
+
+/* Directory Table */
+
+.table-container {
+    overflow-x: auto;
+}
+
+.directory table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.directory th {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 14px;
+    text-align: left;
+}
+
+.directory td {
+    padding: 14px;
+    border-bottom: 1px solid #d9e1ea;
+}
+
+
+/* Required Row Hover Effect */
+
+.directory tbody tr:hover {
+    background-color: #eaf1f8;
+}
