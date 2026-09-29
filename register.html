@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Register - Alumni Management System</title>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+
+    <header>
+        <h1>Alumni Management System</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Create Alumni Account</h2>
+
+            <p>
+                Register as an alumnus to become part of our university
+                alumni community.
+            </p>
+
+            <form>
+
+                <div>
+                    <label for="fullName">Full Name:</label>
+                    <br>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">Email Address:</label>
+                    <br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="password">Password:</label>
+                    <br>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="graduationYear">Graduation Year:</label>
+                    <br>
+                    <input type="number" id="graduationYear"
+                           name="graduationYear"
+                           min="1950"
+                           max="2030">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="department">Department:</label>
+                    <br>
+
+                    <select id="department" name="department">
+                        <option value="">Select Department</option>
+                        <option value="computer-science">Computer Science</option>
+                        <option value="software-engineering">Software Engineering</option>
+                        <option value="electrical-engineering">Electrical Engineering</option>
+                        <option value="business-administration">Business Administration</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <p>Gender:</p>
+
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="city">City:</label>
+                    <br>
+                    <input type="text" id="city" name="city">
+                </div>
+
+                <br>
+
+                <div>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">
+                        I agree to the terms and conditions.
+                    </label>
+                </div>
+
+                <br>
+
+                <button type="submit">Create Account</button>
+                <button type="reset">Clear Form</button>
+
+            </form>
+
+            <p>
+                Already have an account?
+                <a href="login.html">Login here</a>
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Alumni Management System</p>
+    </footer>
+
+</body>
+
+</html>
